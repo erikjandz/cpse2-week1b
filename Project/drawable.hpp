@@ -34,6 +34,10 @@ public:
   	));
   }
 
+  virtual void update_position(){};
+
+  virtual void interact(){};
+
   sf::Rect<float> hitbox;
 protected:
 	sf::Vector2f position;

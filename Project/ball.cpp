@@ -33,6 +33,5 @@ void ball::interact(drawable * other){
 			nextMove.x *= -1;
 			nextMove.y *= -1;
 		}
-
 	}
 }

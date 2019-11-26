@@ -10,7 +10,7 @@ public:
 
 	void draw( sf::RenderWindow & window ) const override;
 
-	void update_position();
+	void update_position()override;
 
 	void interact(drawable * other)override;
 private:
